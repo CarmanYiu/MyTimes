@@ -1,0 +1,35 @@
+/* Header */
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 8px;
+  border-bottom: 1px solid black;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  color: MediumAquamarine;
+}
+
+.logo h4 {
+  margin-left: 14px;
+}
+
+.navigation {
+  display: flex;
+}
+
+.navigation span {
+  display: inline-flex;
+  margin: 14px;
+}
+
+.navigation a {
+  color: inherit;
+}
