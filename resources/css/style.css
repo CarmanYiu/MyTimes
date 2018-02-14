@@ -112,27 +112,27 @@ nav a {
 
 }
 
-.main-story {
+.bg_img.main-story {
   background-image: url("/Users/yiukitling/documents/projects/MyTimes/resources/images/main-story.png");
   text-align: left;
   font-size: 40px;
 
 }
 
-.main-story span {
+.bg_img.main-story span {
   margin-left: 10px;
 }
 
-.fall-season {
-  background-image: url("/Users/yiukitling/documents/projects/MyTimes/resources/images/fall-season.png");
+.bg_img.fall-season {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png");
 
 }
 
-.hipster-cameraman {
+.bg_img.hipster-cameraman {
   background-image: url("/Users/yiukitling/documents/projects/MyTimes/resources/images/hipster-cameraman.png");
 }
 
-.cat-ceo {
+.bg_img.cat-ceo {
   background-image: url("/Users/yiukitling/documents/projects/MyTimes/resources/images/cat-ceo.png");
 }
 
