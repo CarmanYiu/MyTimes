@@ -9,16 +9,16 @@ body {
 header {
   display: flex;
   align-items: center;
-  /*justify-content: space-between;*/
+
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
   border-bottom: 1px solid black;
   height: 80px;
-  /*margin: 0;*/
+
 
   width: 100%;
-  background-color: yellow;
+
   position: fixed;
   z-index: 1;
 }
@@ -27,7 +27,7 @@ header {
   display: flex;
   align-items: center;
   color: MediumAquamarine;
-  border: 1px solid black;
+
   flex-grow: 2;
   padding-left: 27px;
 }
@@ -55,47 +55,71 @@ nav a {
 .main .container {
   display: flex;
 
-  border-width: 0 1px 1px 1px;
-  border-style: solid;
-  border-color: black;
-
-  width: 1254px;
+  width: 1230px;
   margin: 0 auto;
   position: relative;
   top: 80px;
 
+  padding-top: 24px;
+
 }
 
-.main .column {
+.column {
   display: flex;
-  border: 2px solid black;
+
   flex-direction: column;
-
-
 }
 
 .large {
   flex: 0 0 630px;
-  margin: 24px 12px 0 0;
 
 }
 
 .medium {
   flex: 0 0 300px;
-  margin: 24px 12px 0;
+  margin: 0 24px;
+
 }
 
 .small {
   flex: 0 0 240px;
-  margin:24px 24px 0 12px;
+
 }
 
-.main .box {
-  border: 1px solid black;
+.box {
+
+  display: flex;
+  flex-direction: column;
+
+
+}
+
+.stories {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.stories .box {
+  width: 300px;
+
+}
+
+.box h2 {
+  margin-bottom: 0;
+}
+
+p {
+  margin-bottom: 50px;
+}
+
+.stories .bg_img {
+  margin-top: 50px;
+
 }
 
 .bg_img {
-  border: 1px solid black;
+
 
   display: flex;
   flex-direction: column;
@@ -113,7 +137,7 @@ nav a {
 }
 
 .bg_img.main-story {
-  background-image: url("/Users/yiukitling/documents/projects/MyTimes/resources/images/main-story.png");
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png");
   text-align: left;
   font-size: 40px;
 
@@ -129,11 +153,11 @@ nav a {
 }
 
 .bg_img.hipster-cameraman {
-  background-image: url("/Users/yiukitling/documents/projects/MyTimes/resources/images/hipster-cameraman.png");
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png");
 }
 
 .bg_img.cat-ceo {
-  background-image: url("/Users/yiukitling/documents/projects/MyTimes/resources/images/cat-ceo.png");
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png");
 }
 
 .box p {
@@ -144,4 +168,83 @@ nav a {
 
 .uppercase {
   text-transform: uppercase;
+}
+
+/* News Bites */
+
+.small .box {
+  align-items: center;
+
+}
+
+.small h3 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+
+ul {
+  list-style-type: none;
+  padding: 0;
+
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+
+  /*display: flex;
+  flex-direction: column;
+  justify-content: space-around;*/
+
+}
+
+li {
+  border-bottom: 1px solid black;
+  padding: 10px 20px;
+}
+
+/* Footer */
+
+footer {
+
+
+  background-color: MediumAquamarine;
+  position: relative;
+  top: 150px;
+
+  height: 325px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  font-family: Verdana;
+  font-size: 12px;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+
+}
+
+.test {
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+
+  border-right: 2px solid white;
+  padding-right: 25px;
+  margin-right: 25px;
+
+  display: inline-block;
+}
+
+.info nav {
+  display: inline-block;
+
 }
